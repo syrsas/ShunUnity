@@ -13,7 +13,7 @@ public class ItemGenerator : MonoBehaviour
     //スタート地点
     private int startPos = 40;
     //ゴール地点
-    private int goalPos = 500;
+    private int goalPos = 400;
     //アイテムを出すx方向の範囲
     private float posRange = 3.4f;
     // Unityちゃんのオブジェクト（発展）
