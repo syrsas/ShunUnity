@@ -20,14 +20,13 @@ public class UnityChanController : MonoBehaviour
     // 動きを減速させる係数（追加）
     private float coefficient = 0.99f;
     // ゲーム終了の判定（追加）
-    private bool isEnd = false;
+    public static bool isEnd = false;
     // ゲーム終了時に表示するテキスト（追加）
     private GameObject stateText;
     //スコアを表示するテキスト（追加）
     private GameObject scoreText;
     //得点（追加）
     private int score = 0;
-    private int hum = 0;
     //左ボタン押下の判定（追加）
     private bool isLButtonDown = false;
     //右ボタン押下の判定（追加）
@@ -58,7 +57,7 @@ public class UnityChanController : MonoBehaviour
     void Update()
     {
         //ゲーム終了ならUnityちゃんの動きを減衰する（追加）
-        if (this.isEnd)
+        if (isEnd)
         {
             this.velocityZ *= this.coefficient;
             this.velocityX *= this.coefficient;
@@ -112,19 +111,17 @@ public class UnityChanController : MonoBehaviour
         //障害物に衝突した場合（追加）
         if(other.gameObject.tag == "CarTag" || other.gameObject.tag == "TrafficConeTag")
         {
-            hum += 1;
-            if (hum >= 3)
-            {
-                this.isEnd = true;
-                //stateTextにGAME OVERを表示（追加）
-                this.stateText.GetComponent<Text>().text = "GAME OVER";
-            }
+            
+             isEnd = true;
+             //stateTextにGAME OVERを表示（追加）
+             this.stateText.GetComponent<Text>().text = "GAME OVER";
+        
             
         }
         //ゴール地点に到達した場合（追加）
         if(other.gameObject.tag == "GoalTag")
         {
-            this.isEnd = true;
+            isEnd = true;
             //stateTextにGAME CLEARを表示（追加）
             this.stateText.GetComponent<Text>().text = "CLEAR!!";
         }
