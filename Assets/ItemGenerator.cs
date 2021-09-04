@@ -10,6 +10,10 @@ public class ItemGenerator : MonoBehaviour
     public GameObject coinPrefab;
     //cornPrefabを入れる
     public GameObject conePrefab;
+    //SlimePrefabを入れる
+    public GameObject SlimePrefab;
+    //TurtleShellを入れる
+    public GameObject TurtleShellPrefab;
     //スタート地点
     private int startPos = 40;
     //ゴール地点
@@ -39,7 +43,7 @@ public class ItemGenerator : MonoBehaviour
         if (difference >= 15)
         {
             //どのアイテムを出すのかをランダムに設定
-            int num = Random.Range(1, 11);
+            int num = Random.Range(1, 15);
             if (num <= 2)
             {
                 //コーンをx軸方向に一直線に生成
@@ -56,21 +60,31 @@ public class ItemGenerator : MonoBehaviour
                 for (int j = -1; j <= 1; j++)
                 {
                     //アイテムの種類を決める
-                    int item = Random.Range(1, 11);
+                    int item = Random.Range(1, 15);
                     //アイテムを置くZ座標のオフセットをランダムに設定
                     int offsetZ = Random.Range(-5, 6);
                     //60%コイン配置:30%車配置:10%何もなし
-                    if (1 <= item && item <= 6)
+                    if (1 <= item && item <= 9)
                     {
                         //コインを生成
                         GameObject coin = Instantiate(coinPrefab);
                         coin.transform.position = new Vector3(posRange * j, coin.transform.position.y, unitychan.transform.position.z + 40);
                     }
-                    else if (7 <= item && item <= 9)
+                    else if (10 <= item && item <= 11)
                     {
                         //車を生成
                         GameObject car = Instantiate(carPrefab);
                         car.transform.position = new Vector3(posRange * j, car.transform.position.y, unitychan.transform.position.z + 40);
+                    }
+                    else if(12 <= item && item <= 13)
+                    {
+                        GameObject slime = Instantiate(SlimePrefab);
+                        slime.transform.position = new Vector3(posRange * j, slime.transform.position.y, unitychan.transform.position.z + 40);
+                    }
+                    else if(14 <= item && item <= 15)
+                    {
+                        GameObject turtleshell = Instantiate(TurtleShellPrefab);
+                        turtleshell.transform.position = new Vector3(posRange * j, turtleshell.transform.position.y, unitychan.transform.position.z + 40);
                     }
                 }
             }
