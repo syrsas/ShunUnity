@@ -27,6 +27,7 @@ public class UnityChanController : MonoBehaviour
     private GameObject scoreText;
     //得点（追加）
     private int score = 0;
+    private int hum = 0;
     //左ボタン押下の判定（追加）
     private bool isLButtonDown = false;
     //右ボタン押下の判定（追加）
@@ -111,9 +112,14 @@ public class UnityChanController : MonoBehaviour
         //障害物に衝突した場合（追加）
         if(other.gameObject.tag == "CarTag" || other.gameObject.tag == "TrafficConeTag")
         {
-            this.isEnd = true;
-            //stateTextにGAME OVERを表示（追加）
-            this.stateText.GetComponent<Text>().text = "GAME OVER";
+            hum += 1;
+            if (hum >= 3)
+            {
+                this.isEnd = true;
+                //stateTextにGAME OVERを表示（追加）
+                this.stateText.GetComponent<Text>().text = "GAME OVER";
+            }
+            
         }
         //ゴール地点に到達した場合（追加）
         if(other.gameObject.tag == "GoalTag")

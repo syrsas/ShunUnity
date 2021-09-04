@@ -4886,3 +4886,419 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1413 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 97.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 3.102100 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.094700 ms MarkObjects: 1.857600 ms  DeleteObjects: 0.796700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2125.
+Total: 2.923700 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.855900 ms  DeleteObjects: 0.802900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 925.046426 seconds.
+  path: Assets/Megumi_HighSchoolStudent
+  artifactKey: Guid(3bb4a09a761f8814c81972bc1f7276bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent using Guid(3bb4a09a761f8814c81972bc1f7276bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb979811adc922b607fba590f766dab') in 0.006476 seconds 
+  Import took 0.009975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001799 seconds.
+  path: Assets/Megumi_HighSchoolStudent
+  artifactKey: Guid(3bb4a09a761f8814c81972bc1f7276bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent using Guid(3bb4a09a761f8814c81972bc1f7276bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb979811adc922b607fba590f766dab') in 0.003624 seconds 
+  Import took 0.006107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.256267 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Megumi_HightSchoolStudent.fbx
+  artifactKey: Guid(780d340bd8578d54f80ca5409d087ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Megumi_HightSchoolStudent.fbx using Guid(780d340bd8578d54f80ca5409d087ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3985889f54b49791861a9a4ed6aac') in 4.308048 seconds 
+  Import took 4.313633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator
+  artifactKey: Guid(e241994b8ef9c9646bb92083df7800c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator using Guid(e241994b8ef9c9646bb92083df7800c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90c10178a4686f8961d86f69afd6fe7') in 0.003381 seconds 
+  Import took 0.006308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.267953 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewFall.anim
+  artifactKey: Guid(3930fb3cbf4db7f418a85b82aa9865b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewFall.anim using Guid(3930fb3cbf4db7f418a85b82aa9865b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40737c1efa389aa917d6985180792f1d') in 0.028789 seconds 
+  Import took 0.031780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.908881 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewIdle.anim
+  artifactKey: Guid(eb8a1f2e146089e459e453f8b63b2378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewIdle.anim using Guid(eb8a1f2e146089e459e453f8b63b2378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21744e391738f3860822b76974094b26') in 0.125655 seconds 
+  Import took 0.128862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548311 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewIdle02.anim
+  artifactKey: Guid(2306d99bee46f86458f9037a1cb17d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewIdle02.anim using Guid(2306d99bee46f86458f9037a1cb17d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e64ff0d37a42f98cf817cad5e62d9d') in 0.033630 seconds 
+  Import took 0.037333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.303872 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewJump.anim
+  artifactKey: Guid(a318f21c66493e34ea5d1d920d0a96d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewJump.anim using Guid(a318f21c66493e34ea5d1d920d0a96d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b165e9909cae7d8b28c19a991d41d223') in 0.023383 seconds 
+  Import took 0.026524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.394851 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewPose.anim
+  artifactKey: Guid(e3376ec4334436d47b8fe7f3e0466c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewPose.anim using Guid(e3376ec4334436d47b8fe7f3e0466c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e73ac3d0328869af5e0410ed5f1d70') in 0.306101 seconds 
+  Import took 0.309236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312021 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewRun.anim
+  artifactKey: Guid(7a9548fb79ec2334e9a13d8dbcbc39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewRun.anim using Guid(7a9548fb79ec2334e9a13d8dbcbc39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09409ea10edf6639df28adfddf94903c') in 0.012437 seconds 
+  Import took 0.015175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005357 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewRun.anim
+  artifactKey: Guid(7a9548fb79ec2334e9a13d8dbcbc39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewRun.anim using Guid(7a9548fb79ec2334e9a13d8dbcbc39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09409ea10edf6639df28adfddf94903c') in 0.011400 seconds 
+  Import took 0.015583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722947 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewWalk.anim
+  artifactKey: Guid(78291275b92c09246aa7d22e5413f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewWalk.anim using Guid(78291275b92c09246aa7d22e5413f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee09bd44fa48585068992e93dd0aeea2') in 0.011115 seconds 
+  Import took 0.014302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008155 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewWalk.anim
+  artifactKey: Guid(78291275b92c09246aa7d22e5413f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewWalk.anim using Guid(78291275b92c09246aa7d22e5413f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee09bd44fa48585068992e93dd0aeea2') in 0.012362 seconds 
+  Import took 0.016308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.906397 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Animator/NewWalkBack.anim
+  artifactKey: Guid(645a14f967423eb4cb9a4bab9618cc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Animator/NewWalkBack.anim using Guid(645a14f967423eb4cb9a4bab9618cc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b716813c066f55b7233f2e6fa4e901d') in 0.206948 seconds 
+  Import took 0.216801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.064662 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/Body_SKIN.mat
+  artifactKey: Guid(76a952b759eeebe4ca7d91c824a64882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/Body_SKIN.mat using Guid(76a952b759eeebe4ca7d91c824a64882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed87c05882fe1e3d50ae782f1635252') in 0.070634 seconds 
+  Import took 0.074076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/HAIR_02.mat
+  artifactKey: Guid(71235853902d93b498f53362bc715a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/HAIR_02.mat using Guid(71235853902d93b498f53362bc715a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277b4d50069d41bc6249428e5c4d338') in 0.017297 seconds 
+  Import took 0.020055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials
+  artifactKey: Guid(d215d83f2f49aa449b5a20a85d46eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials using Guid(d215d83f2f49aa449b5a20a85d46eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372893b0fdbee01e812ee867ac0c8cb9') in 0.003215 seconds 
+  Import took 0.005547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/HAIR_01.mat
+  artifactKey: Guid(a9e3cb45f5d7b3241baeb63605330371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/HAIR_01.mat using Guid(a9e3cb45f5d7b3241baeb63605330371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d643d44e3d1450a5d4aec1955d83d4') in 0.017684 seconds 
+  Import took 0.020468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/FaceEyeline.mat
+  artifactKey: Guid(507673fb53b0f49449f6c94afcf77657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/FaceEyeline.mat using Guid(507673fb53b0f49449f6c94afcf77657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e31293b72fb17eb3b7efe11d6890a6') in 0.014532 seconds 
+  Import took 0.017211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/EyeIris.mat
+  artifactKey: Guid(d63ed8ccbca0c044a841e6499a1e23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/EyeIris.mat using Guid(d63ed8ccbca0c044a841e6499a1e23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1665ab8c3ba463566a46aa219b4a6a34') in 0.017690 seconds 
+  Import took 0.022061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/EyeExtra.mat
+  artifactKey: Guid(cfb414235053f134aa0fa79451fdd612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/EyeExtra.mat using Guid(cfb414235053f134aa0fa79451fdd612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fce3344227e661cd764cca387ffc30') in 0.018909 seconds 
+  Import took 0.022860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/Bottoms_CLOTH.mat
+  artifactKey: Guid(8d243a145aeeb3441baa803757bb799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/Bottoms_CLOTH.mat using Guid(8d243a145aeeb3441baa803757bb799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75761db7a2d3e774a30b5e7bbf4c5509') in 0.017834 seconds 
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/Face.mat
+  artifactKey: Guid(7ce36cd7eaad66f49bfba5b0962904ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/Face.mat using Guid(7ce36cd7eaad66f49bfba5b0962904ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c17c05bcb39b5720d7d9869c03ae34c') in 0.022702 seconds 
+  Import took 0.027008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/Tops_CLOTH.mat
+  artifactKey: Guid(92ad7744e25d08d4b9a9bf9a1dad321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/Tops_CLOTH.mat using Guid(92ad7744e25d08d4b9a9bf9a1dad321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214bb9fb18d55b4c41c2f9dc0b53a1cb') in 0.068895 seconds 
+  Import took 0.072583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/Shoes_CLOTH.mat
+  artifactKey: Guid(66d6fa5f623b5b744b80b805b6fd0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/Shoes_CLOTH.mat using Guid(66d6fa5f623b5b744b80b805b6fd0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32aac900a51b98853a15003f23cb1b') in 0.013222 seconds 
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/FaceEyelash.mat
+  artifactKey: Guid(02a4a32288408964782bdd77d3d2767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/FaceEyelash.mat using Guid(02a4a32288408964782bdd77d3d2767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f91a24935f09bbc34f2e84f135cae1') in 0.012495 seconds 
+  Import took 0.015336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/FaceMouth.mat
+  artifactKey: Guid(ab0fd2997e17228479e02753ce1c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/FaceMouth.mat using Guid(ab0fd2997e17228479e02753ce1c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1abed82658161dfb5dcebfe45e5953') in 0.013685 seconds 
+  Import took 0.016207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/FaceBrow.mat
+  artifactKey: Guid(81d6ab4232d85be4e81ed44895f39a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/FaceBrow.mat using Guid(81d6ab4232d85be4e81ed44895f39a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1432a71f3c3e0f3bc64db5b8f8d85c') in 0.013678 seconds 
+  Import took 0.016647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/EyeHighlight.mat
+  artifactKey: Guid(b3d07c5f8a331b14fb964a8067943877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/EyeHighlight.mat using Guid(b3d07c5f8a331b14fb964a8067943877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69260bfb86937c110a33b58012ca51f4') in 0.016020 seconds 
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/HairBack.mat
+  artifactKey: Guid(3a9662510a4f29b4b8c32575439f703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/HairBack.mat using Guid(3a9662510a4f29b4b8c32575439f703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f41c5ca0c752d2fce817563705407') in 0.024466 seconds 
+  Import took 0.027287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Materials/EyeWhite.mat
+  artifactKey: Guid(4d9ab2607d73cef488e8aca1734fcc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Materials/EyeWhite.mat using Guid(4d9ab2607d73cef488e8aca1734fcc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a1124de4d2d2ae012e46058aa805c8') in 0.023031 seconds 
+  Import took 0.026644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.467671 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Prefabs/Megumi_HightSchoolStudent.prefab
+  artifactKey: Guid(5febbef7ff24bbf498ec4aa2aaa99541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Prefabs/Megumi_HightSchoolStudent.prefab using Guid(5febbef7ff24bbf498ec4aa2aaa99541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e7136fc4a9f939469dc7fc786f8d7d') in 0.447668 seconds 
+  Import took 0.454238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Prefabs
+  artifactKey: Guid(b80dfb28fc5ab4c4b84d8310cb60b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Prefabs using Guid(b80dfb28fc5ab4c4b84d8310cb60b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25503d3f60684f00a27d3d09f6a093c0') in 0.003041 seconds 
+  Import took 0.006211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 701.374126 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Demo/Floor.mat
+  artifactKey: Guid(a450443c4ff91dc4f8340251c790290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Demo/Floor.mat using Guid(a450443c4ff91dc4f8340251c790290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088ebaa4edc0bb522f21dc82a3337d2') in 0.022431 seconds 
+  Import took 0.026834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006269 seconds.
+  path: Assets/Megumi_HighSchoolStudent/Demo/Floor.mat
+  artifactKey: Guid(a450443c4ff91dc4f8340251c790290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Megumi_HighSchoolStudent/Demo/Floor.mat using Guid(a450443c4ff91dc4f8340251c790290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088ebaa4edc0bb522f21dc82a3337d2') in 0.012039 seconds 
+  Import took 0.016472 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 169.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2130.
+Total: 4.421400 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.037500 ms MarkObjects: 2.692700 ms  DeleteObjects: 1.466700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 169.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 3.272200 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.946000 ms  DeleteObjects: 0.984000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
