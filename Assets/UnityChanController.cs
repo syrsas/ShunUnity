@@ -73,6 +73,17 @@ public class UnityChanController : MonoBehaviour
             this.velocityY *= this.coefficient;
             this.myAnimator.speed *= this.coefficient;
         }
+        if (isEnd && m_isDead)
+        {
+            m_isDead = true;
+            isEnd = true;
+            this.velocityZ *= this.coefficient;
+            this.velocityX *= this.coefficient;
+            this.velocityY *= this.coefficient;
+            this.myAnimator.speed *= this.coefficient;
+            //stateTextにGAME OVERを表示（追加）
+            this.stateText.GetComponent<Text>().text = "GAME OVER";
+        }
 
         //横方向の入力による速度（追加）
         float inputVelocityX = 0;
