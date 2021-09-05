@@ -52,7 +52,7 @@ public class ItemGenerator : MonoBehaviour
                 //Unityちゃんのオブジェクトを取得
                 this.unitychan = newTarget;
                 //Unityちゃんとカメラの位置（z座標）の差を求める
-                this.difference = unitychan.transform.position.z - lastGeneratePosZ;
+                this.difference = unitychan.transform.position.z - this.transform.position.z;
             }
         }
         else
@@ -60,7 +60,7 @@ public class ItemGenerator : MonoBehaviour
             //Unityちゃんの位置に合わせてカメラの位置を移動
             this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
         }
-        //difference = unitychan.transform.position.z - lastGeneratePosZ;
+        difference = unitychan.transform.position.z - lastGeneratePosZ;
         if (difference >= 15)
         {
             //どのアイテムを出すのかをランダムに設定
