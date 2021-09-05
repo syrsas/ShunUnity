@@ -20,8 +20,10 @@ public class ItemGenerator : MonoBehaviour
     private int goalPos = 400;
     //アイテムを出すx方向の範囲
     private float posRange = 3.4f;
+    // Unityちゃんのオブジェクト
+    private UnityChanController unitychan;
     // Unityちゃんのオブジェクト（発展）
-    private GameObject unitychan;
+    //private GameObject unitychan;
     // Unityちゃんとカメラの距離（発展）
     private float difference;
 
@@ -30,8 +32,10 @@ public class ItemGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Unityちゃんのオブジェクトを取得
+        this.unitychan = GetTarget();
         // Unityちゃんのオブジェクトを取得（発展）
-        this.unitychan = GameObject.Find("unitychan");
+        //this.unitychan = UnityChanController.Find("unitychan");
         // Unityちゃんとカメラの位置（z座標）の差を求める（発展）
         this.difference = unitychan.transform.position.z - this.transform.position.z; 
     }
@@ -39,7 +43,24 @@ public class ItemGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        difference = unitychan.transform.position.z - lastGeneratePosZ;
+        if (unitychan.m_isDead)
+        {
+            var newTarget = GetTarget();
+
+            if (newTarget)
+            {
+                //Unityちゃんのオブジェクトを取得
+                this.unitychan = newTarget;
+                //Unityちゃんとカメラの位置（z座標）の差を求める
+                this.difference = unitychan.transform.position.z - lastGeneratePosZ;
+            }
+        }
+        else
+        {
+            //Unityちゃんの位置に合わせてカメラの位置を移動
+            this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+        }
+        //difference = unitychan.transform.position.z - lastGeneratePosZ;
         if (difference >= 15)
         {
             //どのアイテムを出すのかをランダムに設定
@@ -90,5 +111,20 @@ public class ItemGenerator : MonoBehaviour
             }
             lastGeneratePosZ = unitychan.transform.position.z;
         }
+    }
+    UnityChanController GetTarget()
+    {
+        var players = GameObject.FindGameObjectsWithTag("Player");
+        for (int i = 0; i < players.Length; i++)
+        {
+            GameObject p = players[i];
+            UnityChanController c = p.GetComponent<UnityChanController>();
+
+            if (c != null && c.m_isDead == false)
+            {
+                return c;
+            }
+        }
+        return null;
     }
 }

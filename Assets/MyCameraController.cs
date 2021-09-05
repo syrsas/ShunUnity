@@ -45,29 +45,16 @@ public class MyCameraController : MonoBehaviour
     UnityChanController GetTarget()
     {
         var players = GameObject.FindGameObjectsWithTag("Player");
-        foreach(var p in players)
+        for(int i = 0; i < players.Length; i++)
         {
-            var c = p.GetComponent<UnityChanController>();
+            GameObject p = players[i];
+            UnityChanController c = p.GetComponent<UnityChanController>();
 
-            if(c && !c.m_isDead)
+            if(c != null && c.m_isDead == false)
             {
                 return c;
             }
         }
         return null;
     }
-    /*UnityChanController GetTarget()
-    {
-        var players = GameObject.FindGameObjectsWithTag("Player");​
-        foreach (var p in players)
-        {
-            var c = p.GetComponent<UnityChanController>();
-
-            if (c && !c.m_isDead)
-            {
-                return c;
-            }
-        }​
-        return null;
-    }*/
 }
