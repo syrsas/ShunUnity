@@ -33,7 +33,7 @@ public class UnityChanController : MonoBehaviour
     private bool isRButtonDown = false;
     //ジャンプボタン押下の判定（追加）
     private bool isJButtonDown = false;
-
+    public bool m_isDead = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,7 +57,7 @@ public class UnityChanController : MonoBehaviour
     void Update()
     {
         //ゲーム終了ならUnityちゃんの動きを減衰する（追加）
-        if (isEnd)
+        if (isEnd || m_isDead)
         {
             this.velocityZ *= this.coefficient;
             this.velocityX *= this.coefficient;
@@ -139,6 +139,14 @@ public class UnityChanController : MonoBehaviour
         }
     }
 
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "EmemyTag")
+        {
+            m_isDead = true;
+        }
+    }
     //ジャンプボタンを押した場合の処理（追加）
     public void GetMyJumpButtonDown()
     {

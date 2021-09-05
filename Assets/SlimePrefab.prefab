@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: -7659990180959770325}
   m_Layer: 0
   m_Name: SlimePrefab
-  m_TagString: Untagged
+  m_TagString: EmemyTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

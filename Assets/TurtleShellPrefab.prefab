@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 703484420592913085}
   m_Layer: 0
   m_Name: TurtleShellPrefab
-  m_TagString: Untagged
+  m_TagString: EmemyTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

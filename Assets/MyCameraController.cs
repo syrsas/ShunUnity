@@ -1,27 +1,73 @@
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MyCameraController : MonoBehaviour
 {
-    // Unity‚¿‚á‚ñ‚ÌƒIƒuƒWƒFƒNƒg
-    private GameObject unitychan;
-    // Unity‚¿‚á‚ñ‚ÆƒJƒƒ‰‚Ì‹——£
+    // Unityã¡ã‚ƒã‚“ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
+    private UnityChanController unitychan;
+    // Unityã¡ã‚ƒã‚“ã¨ã‚«ãƒ¡ãƒ©ã®è·é›¢
     private float difference;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        // Unity‚¿‚á‚ñ‚ÌƒIƒuƒWƒFƒNƒg‚ğæ“¾
-        this.unitychan = GameObject.Find("unitychan");
-        // Unity‚¿‚á‚ñ‚ÆƒJƒƒ‰‚ÌˆÊ’uizÀ•Wj‚Ì·‚ğ‹‚ß‚é
+        // Unityã¡ã‚ƒã‚“ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—
+        this.unitychan = GetTarget();
+        //this.unitychan = GameObject.Find("unitychan");
+        // Unityã¡ã‚ƒã‚“ã¨ã‚«ãƒ¡ãƒ©ã®ä½ç½®ï¼ˆzåº§æ¨™ï¼‰ã®å·®ã‚’æ±‚ã‚ã‚‹
         this.difference = unitychan.transform.position.z - this.transform.position.z;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Unity‚¿‚á‚ñ‚ÌˆÊ’u‚É‡‚í‚¹‚ÄƒJƒƒ‰‚ÌˆÊ’u‚ğˆÚ“®
-        this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+        if (unitychan.m_isDead)
+        {
+            var newTarget = GetTarget();
+
+            if (newTarget)
+            {
+                //Unityã¡ã‚ƒã‚“ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—
+                this.unitychan = newTarget;
+                //Unityã¡ã‚ƒã‚“ã¨ã‚«ãƒ¡ãƒ©ã®ä½ç½®ï¼ˆzåº§æ¨™ï¼‰ã®å·®ã‚’æ±‚ã‚ã‚‹
+                this.difference = unitychan.transform.position.z - this.transform.position.z;
+            }
+        }
+        else
+        {
+            //Unityã¡ã‚ƒã‚“ã®ä½ç½®ã«åˆã‚ã›ã¦ã‚«ãƒ¡ãƒ©ã®ä½ç½®ã‚’ç§»å‹•
+            this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+        }
     }
+    UnityChanController GetTarget()
+    {
+        var players = GameObject.FindGameObjectsWithTag("Player");
+        foreach(var p in players)
+        {
+            var c = p.GetComponent<UnityChanController>();
+
+            if(c && !c.m_isDead)
+            {
+                return c;
+            }
+        }
+        return null;
+    }
+    /*UnityChanController GetTarget()
+    {
+        var players = GameObject.FindGameObjectsWithTag("Player");â€‹
+        foreach (var p in players)
+        {
+            var c = p.GetComponent<UnityChanController>();
+
+            if (c && !c.m_isDead)
+            {
+                return c;
+            }
+        }â€‹
+        return null;
+    }*/
 }
