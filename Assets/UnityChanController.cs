@@ -63,7 +63,7 @@ public class UnityChanController : MonoBehaviour
     void Update()
     {
         // Unityちゃんのオブジェクトを取得
-        this.unitychan = GetTarget();
+        //this.unitychan = GetTarget();
         var newTarget = GetTarget();
         if (newTarget == null)
         {
