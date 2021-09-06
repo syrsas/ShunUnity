@@ -56,7 +56,7 @@ public class UnityChanController : MonoBehaviour
         // シーン中のscoreTextオブジェクトを取得（追加）
         this.scoreText = GameObject.Find("ScoreText");
         // Unityちゃんとカメラの位置（z座標）の差を求める
-        this.difference = unitychan.transform.position.z - this.transform.position.z;
+        //this.difference = unitychan.transform.position.z - this.transform.position.z;
     }
 
     // Update is called once per frame
@@ -64,6 +64,15 @@ public class UnityChanController : MonoBehaviour
     {
         // Unityちゃんのオブジェクトを取得
         this.unitychan = GetTarget();
+        var newTarget = GetTarget();
+        if (newTarget == null)
+        {
+            m_isDead = true;
+            //stateTextにGAME OVERを表示（追加）
+            this.stateText.GetComponent<Text>().text = "GAME OVER";
+            //Unityちゃんの位置に合わせてカメラの位置を移動
+            //this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+        }
 
         //ゲーム終了ならUnityちゃんの動きを減衰する（追加）
         if (isEnd || m_isDead)
@@ -141,19 +150,7 @@ public class UnityChanController : MonoBehaviour
                     //Unityちゃんとカメラの位置（z座標）の差を求める
                     this.difference = unitychan.transform.position.z - this.transform.position.z;
                 }
-                else
-                {
-                    m_isDead = true;
-                    //stateTextにGAME OVERを表示（追加）
-                    this.stateText.GetComponent<Text>().text = "GAME OVER";
-                    //Unityちゃんの位置に合わせてカメラの位置を移動
-                    this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
-
-                }
             }
-            else
-            {
-                            }
         }
         //ゴール地点に到達した場合（追加）
         if(other.gameObject.tag == "GoalTag")
