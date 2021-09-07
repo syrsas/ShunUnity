@@ -176,7 +176,7 @@ public class UnityChanController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "EmemyTag")
+        if(collision.gameObject.tag == "EmemyTag" || collision.gameObject.tag == "CarTag" || collision.gameObject.tag == "TrafficConeTag")
         {
             m_isDead = true;
         }

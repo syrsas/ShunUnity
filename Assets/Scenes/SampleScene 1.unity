@@ -482,6 +482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b359236a57913ab4e90e896d4428c0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_isDead: 0
 --- !u!199 &196902865
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6224,6 +6225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b359236a57913ab4e90e896d4428c0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_isDead: 0
 --- !u!199 &1586173512
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -11381,6 +11383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b359236a57913ab4e90e896d4428c0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_isDead: 0
 --- !u!136 &1845713128
 CapsuleCollider:
   m_ObjectHideFlags: 0

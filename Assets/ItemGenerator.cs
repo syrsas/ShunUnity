@@ -61,7 +61,7 @@ public class ItemGenerator : MonoBehaviour
             this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
         }
         difference = unitychan.transform.position.z - lastGeneratePosZ;
-        if (difference >= 15)
+        if (difference >= 15 && unitychan.transform.position.z < goalPos - 40)
         {
             //どのアイテムを出すのかをランダムに設定
             int num = Random.Range(1, 15);
