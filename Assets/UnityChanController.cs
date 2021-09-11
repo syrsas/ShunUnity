@@ -30,7 +30,7 @@ public class UnityChanController : MonoBehaviour
     //スコアを表示するテキスト（追加）
     private GameObject scoreText;
     //得点（追加）
-    private int score = 0;
+    private static int score = 0;
     //左ボタン押下の判定（追加）
     private bool isLButtonDown = false;
     //右ボタン押下の判定（追加）
@@ -163,11 +163,32 @@ public class UnityChanController : MonoBehaviour
         if(other.gameObject.tag == "CoinTag")
         {
             //スコアを加算（追加）
-            this.score += 10;
+            score += 10;
             //ScoreText獲得した点数を表示（追加）
-            this.scoreText.GetComponent<Text>().text = "Score " + this.score + "pt";
+            this.scoreText.GetComponent<Text>().text = "Score " + score + "pt";
             //パーティクルを再生（追加）
             GetComponent<ParticleSystem>().Play();
+            /*
+            if (unitychan.m_isDead)
+            {
+                var newTarget = GetTarget();
+
+                if (newTarget)
+                {
+                    //Unityちゃんのオブジェクトを取得
+                    this.unitychan = newTarget;
+                    //Unityちゃんとカメラの位置（z座標）の差を求める
+                    this.difference = unitychan.transform.position.z - this.transform.position.z;
+                    //スコアを加算（追加）
+                    score += 10;
+                    //ScoreText獲得した点数を表示（追加）
+                    this.scoreText.GetComponent<Text>().text = "Score " + score + "pt";
+                    //パーティクルを再生（追加）
+                    GetComponent<ParticleSystem>().Play();
+                    //接触したコインのオブジェクトを破棄（追加）
+                    Destroy(other.gameObject);
+                }
+            }*/
             //接触したコインのオブジェクトを破棄（追加）
             Destroy(other.gameObject);
         }
